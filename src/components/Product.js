@@ -3,9 +3,20 @@ import PropTypes from "prop-types";
 
 require("./Product.scss");
 const Product = ({ price, inventory, title }) => (
-  <div>
-    {title} - &#36;{price}
-    {inventory ? ` x ${inventory}` : null}
+  <div className="product">
+    <div className="row">
+      <div className="col-50">
+        <span className="title">{title}</span>
+      </div>
+      <div className="col-50">
+        <span className="price">&#36;{price}</span>
+      </div>
+    </div>
+    <div className="row">
+      <span className="inventory">
+        {inventory ? ` x ${inventory} reamining` : null}
+      </span>
+    </div>
   </div>
 );
 

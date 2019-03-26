@@ -5,7 +5,7 @@ import CartContainer from "./CartContainer";
 require("../styles/main.scss");
 const App = () => (
   <div>
-    <div className="row">
+    <div className="row header">
       <div className="col-50">
         <h2>Acme Store</h2>
       </div>

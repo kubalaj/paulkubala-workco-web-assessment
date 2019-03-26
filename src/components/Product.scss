@@ -1,5 +1,13 @@
 @import "../styles/main.scss";
 
-.card {
-  background-color: $color-primary;
+.product {
+  .title {
+    font-size: 32px;
+    font-family: $font-main;
+    color: $color-font-primary;
+  }
+  .inventory {
+    font-size: 21px;
+    color: $color-font-primary;
+  }
 }
