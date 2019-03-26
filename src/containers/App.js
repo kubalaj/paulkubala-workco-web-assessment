@@ -5,7 +5,7 @@ import CartContainer from "./CartContainer";
 require("../styles/main.scss");
 const App = () => (
   <div>
-    <h2>Shopping Cart Example</h2>
+    <h2>Acme Store</h2>
     <hr />
     <ProductsContainer />
     <hr />
