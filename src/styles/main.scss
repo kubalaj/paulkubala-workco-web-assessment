@@ -1,9 +1,10 @@
 @import "_colors";
 @import "_typography";
+@import "_grid";
 
 body {
   background-color: $color-secondary;
-  margin: 20px 40px;
+  margin: 20px 20%;
 }
 h2 {
   font-family: "Chivo";
