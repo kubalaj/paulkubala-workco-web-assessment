@@ -2,6 +2,16 @@
 
 .product {
   width: 100%;
+  margin: 40px;
+  .row {
+    padding-bottom: 12px;
+  }
+  .col-50 {
+    display: flex;
+    span {
+      align-self: center;
+    }
+  }
   .title {
     font-size: 32px;
     font-family: $font-main;

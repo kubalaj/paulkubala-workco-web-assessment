@@ -5,8 +5,8 @@ import Product from "./Product";
 require("./ProductItem.scss");
 const ProductItem = ({ product, onAddToCartClicked }) => (
   <div className="productCard">
-    <div className="row">
-      <div className="col-33">pic</div>
+    <div className="row content">
+      <div className="col-33 pic">pic</div>
       <div className="col-66">
         <div className="row">
           <Product
