@@ -5,17 +5,21 @@ import Product from "./Product";
 require("./ProductItem.scss");
 const ProductItem = ({ product, onAddToCartClicked }) => (
   <div className="productCard">
-    <Product
-      title={product.title}
-      price={product.price}
-      inventory={product.inventory}
-    />
-    <button
-      onClick={onAddToCartClicked}
-      disabled={product.inventory > 0 ? "" : "disabled"}
-    >
-      {product.inventory > 0 ? "Add to cart" : "Sold Out"}
-    </button>
+    <div className="row">
+      <Product
+        title={product.title}
+        price={product.price}
+        inventory={product.inventory}
+      />
+    </div>
+    <div className="row">
+      <button
+        onClick={onAddToCartClicked}
+        disabled={product.inventory > 0 ? "" : "disabled"}
+      >
+        {product.inventory > 0 ? "Add to cart" : "Sold Out"}
+      </button>
+    </div>
   </div>
 );
 
