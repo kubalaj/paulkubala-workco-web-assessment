@@ -14,7 +14,7 @@ const Product = ({ price, inventory, title }) => (
     </div>
     <div className="row">
       <span className="inventory">
-        {inventory ? ` x ${inventory} reamining` : null}
+        {inventory ? ` ${inventory} reamining` : null}
       </span>
     </div>
   </div>

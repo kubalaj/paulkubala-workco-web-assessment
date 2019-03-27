@@ -1,8 +1,17 @@
 $font-main: "Chivo";
+$font-light: "Chivo-Light";
 @font-face {
   font-family: "Chivo";
   src: url("../fonts/Chivo-Regular.ttf");
   src: url("../fonts/Chivo-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Chivo-Light";
+  src: url("../fonts/Chivo-Light.ttf");
+  src: url("../fonts/Chivo-Light.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
