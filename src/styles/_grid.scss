@@ -2,14 +2,14 @@
   display: flex;
   width: 100%;
   .col {
-    &-33 {
-      width: 33%;
+    &-40 {
+      width: 40%;
     }
     &-50 {
       width: 50%;
     }
-    &-66 {
-      width: 66%;
+    &-60 {
+      width: 60%;
     }
   }
 }

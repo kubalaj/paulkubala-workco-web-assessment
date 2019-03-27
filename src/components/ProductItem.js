@@ -6,8 +6,8 @@ require("./ProductItem.scss");
 const ProductItem = ({ product, onAddToCartClicked }) => (
   <div className="productCard">
     <div className="row content">
-      <div className="col-33 pic">pic</div>
-      <div className="col-66">
+      <div className="col-40 pic">pic</div>
+      <div className="col-60">
         <div className="row">
           <Product
             title={product.title}

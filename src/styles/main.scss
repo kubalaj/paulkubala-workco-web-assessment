@@ -5,17 +5,28 @@
 body {
   background-color: $color-secondary;
   margin: 20px 10%;
+  font-family: $font-main;
 }
 h2 {
-  font-family: $font-main;
   font-size: 51px;
   color: $color-font-primary;
   font-weight: 900;
 }
 h3 {
-  font-family: $font-main;
   color: $color-font-primary;
   font-size: 38px;
+}
+button {
+  background-color: $color-button-primary;
+  color: $color-font-accent;
+  text-transform: uppercase;
+  border: none;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 .header {
   border-bottom: 1px solid $color-border-primary;
